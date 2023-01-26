@@ -2,7 +2,7 @@
 	"name": "fabric-no-node",
 	"private": true,
 	"version": "0.0.0",
-	"description": "Fabric.js package with no node-specific dependencies (node-canvas, jsdom). The project is published once a day (in case if a new version appears) from the latest release branch of https://github.com/fabricjs/fabric.js repository. \n You can keep original imports in your code if you add an alias to your webpack file: `resolve: { alias: { fabric: 'fabric-browser-only' } }`",
+	"description": "Fabric.js package with no node-specific dependencies (node-canvas, jsdom). The project is published once a day (in case if a new version appears) from the latest release branch of https://github.com/fabricjs/fabric.js repository. \n You can keep original imports in your code if you add an alias to your webpack file: `resolve: { alias: { fabric: 'fabric-no-node' } }`",
 	"main": "publish.js",
 	"scripts": {
 		"clone-and-publish": "node . || echo \"Failed\""
